@@ -36,15 +36,15 @@
          <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View profile on github</a></p>
       <div class="panel panel-defult">
           <div class="panel-heading">
-              <h3 class="panel-title">Repos</h3>
+              <h2 class="panel-title">Repos</h2>
             </div>
-            <div class="panel-body" *ngFor="let repoof repos">
-                <p class="clearFix">
-                    {{repo.name}} <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-warning pull-right">View this project on github</a>
-                </p>
-                <p>{{repo.description}}</p>
-
+            <div *ngFor="let repos of repos">
+                    <p style="color:aqua">{{repos.name}}</p> 
+                     <p>{{repos.description}}</p>
+                     <a href="{{repos.html_url}}" target="_blank" class="btn btn-sm btn-warning pull-right">View this project on github</a>
+            
             </div>
+          
       </div>
         </div>
     </div>
