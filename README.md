@@ -6,8 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Loise Muthoni
 
 ## Description
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The website basically works in a way that you can search you Github account and get to explore and get to view your account in Github.
 
 ## Setup Instructions
 
