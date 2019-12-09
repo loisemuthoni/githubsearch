@@ -10,12 +10,13 @@ import { ProfileComponent } from './component/profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent,
-    HttpModule  
+    ProfileComponent
+      
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
