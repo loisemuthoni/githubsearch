@@ -11,9 +11,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Setup Instructions
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
 - Clone this repo through git clone
 - Extract the file into your preferred location
 - Navigate to the index.html through the terminal.
@@ -25,7 +22,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 - CSS & BOOTSTRAP
 
 ## BDD
-- 
+- Write the name you want to search on the bar and click enter.Searching the Github account you get to see the github profile and the you can explore more to see the github account.
+- At the landing page you can also see the number of followers you have and the people you are following.
 ## Project's Live Link
 - 
 
