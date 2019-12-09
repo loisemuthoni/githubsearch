@@ -1,6 +1,6 @@
-<form action="">
+<form action="" class="search">
     <div class="form-group">
-        <input type="text" class="form-control" placeholder="search git users with username">
+        <input type="text" class="form-control" placeholder="search git users with username"[(ngModule)]="username" (keyup)="findProfile()">
 
     </div>
 </form>
